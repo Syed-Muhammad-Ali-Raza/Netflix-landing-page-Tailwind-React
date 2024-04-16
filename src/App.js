@@ -4,6 +4,7 @@ import Hero from './Components/Hero';
 import Section1 from './Components/Section1';
 import Section2 from './Components/Section2';
 import Section3 from './Components/Section3';
+import Section4 from './Components/Section4';
 
 function App() {
   return (
@@ -18,9 +19,12 @@ function App() {
       <div className='bg-black text-white'>
         <Section1 />
         <div className='bg-slate-500 h-2'></div>
-        <Section2/>
+        <Section2 />
         <div className='bg-slate-500 h-2'></div>
-       <Section3/>
+        <Section3 />
+        <div className='bg-slate-500 h-2'></div>
+        <Section4/>
+
 
       </div>
 
