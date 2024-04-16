@@ -13,8 +13,9 @@ const Hero = () => {
                 <p>Ready to watch? Enter your email to create or restart your membership.</p>
             </div>
             <div className='text-center flex gap-5'>
-                <input type='text' className='btn p-2 rounded-md'/>
-                <button className='btn bg-red-500 text-white px-4 py-2'>Get Started</button>
+            <input type='text' className='btn p-2 rounded-md bg-transparent border-slate-600 border-2 text-blue-900 placeholder-gray-400 ' placeholder='Email Address'/>
+            <button className='btn bg-red-700 rounded-lg text-white px-4 py-2'>
+                    Get Started</button>
             </div>
         </div>
     );

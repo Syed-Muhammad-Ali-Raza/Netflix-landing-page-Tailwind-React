@@ -1,4 +1,5 @@
 import './App.css';
+import Footer from './Components/Footer';
 import Header from './Components/Header';
 import Hero from './Components/Hero';
 import Section1 from './Components/Section1';
@@ -28,6 +29,7 @@ function App() {
         <div className='bg-slate-500 h-2'></div>
         <Faq/>
         <div className='bg-slate-500 h-2'></div>
+        <Footer/>
 
 
 
