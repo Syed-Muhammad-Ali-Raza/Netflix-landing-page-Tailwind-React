@@ -7,25 +7,24 @@ const Section2 = () => {
 
                 <div className='left '>
                     <img src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/mobile-0819.jpg" />
-                    <div className='bg-white h-12  relative'>
 
-                        <div className='image'>
+                    <div className='bg-black h-12 relative w-[53%] ml-[140px] border-gray-600 rounded-lg border-2	 flex items-center justify-between px-3'>
+                        <div className='image class1'>
                             <img src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/boxshot.png" className='h-8' />
                         </div>
-                        <div className='content flex'>
+                        <div className='content class2  items-center text-white'>
                             <div className=''>
                                 Stranger Things
-
                             </div>
-                            <div>
-                                Downlaoding...
+                            <div className='text-blue-700'>
+                                Downloading...
                             </div>
                         </div>
-                        <div>
-
+                        <div className='class3'>
+                            <img src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/download-icon.gif" className='h-9' />
                         </div>
-
                     </div>
+
                 </div>
 
                 <div className='right flex justify-center items-center basis-[50%]'>
