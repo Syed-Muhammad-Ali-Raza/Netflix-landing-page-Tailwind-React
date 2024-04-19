@@ -5,11 +5,11 @@ const Footer = () => {
     return (
 
         <>
-           <p className='underline text-gray-500 mx-20 my-10 leading-'>
+           <p className='underline text-[rgba(255,255,255,0.7)] mx-20 my-10 leading-'>
                     Questions? Contact us.
                 </p>
 
-            <div className='grid grid-flow-col mx-20'>
+            <div className='grid grid-flow-col ml-20'>
 
              
                 <div className='one'>
@@ -26,9 +26,12 @@ const Footer = () => {
                         Speed Test
                     </p>
                     <p className='underline text-gray-500 mb-4'>
-                        <button className='btn bg-zinc-800  p-2 rounded-lg text-white'>
-                            English
-                        </button>
+                       
+                        <select className='btn bg-zinc-800  p-2 rounded-lg text-white'>
+                            <option selected="">
+                                English
+                            </option>
+                        </select>
                     </p>
                     <p className=' text-white'>
                        Netflix Pakistan
