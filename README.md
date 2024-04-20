@@ -1,8 +1,3 @@
-run project :   
-
-npm start
-
-
 Technology Use 
 
 
