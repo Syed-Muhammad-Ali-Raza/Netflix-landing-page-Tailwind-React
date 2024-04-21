@@ -12,7 +12,7 @@ const Section2 = () => {
                         <div className='image class1'>
                             <img src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/boxshot.png" className='h-8' />
                         </div>
-                        <div className='content class2  items-center text-white'>
+                        <div className='content class2  items-center text-white my-4'>
                             <div className=''>
                                 Stranger Things
                             </div>
