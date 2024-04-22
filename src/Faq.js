@@ -20,7 +20,7 @@ const Faq = () => {
                 <div className='right'>{openQuestion === 1 ? '-' : '+'}</div>
             </div>
             {openQuestion === 1 && (
-                <div className='answer1'>
+                <div className='answer1 mx-32 flex justify-between px-12 py-3 my-2 hover:bg-slate-400'>
                     Netflix is a streaming service that offers a wide variety of award-winning TV
                     shows, movies, anime, documentaries, and more on thousands of internet-connected
                     devices.
@@ -36,7 +36,7 @@ const Faq = () => {
                 <div className='right'>{openQuestion === 2 ? '-' : '+'}</div>
             </div>
             {openQuestion === 2 && (
-                <div className='answer2'>
+                <div className='answer2  mx-32 flex justify-between px-12 py-3 my-2 hover:bg-slate-400'>
                     Netflix is a streaming service that offers a wide variety of award-winning TV
                     shows, movies, anime, documentaries, and more on thousands of internet-connected
                     devices.
@@ -52,7 +52,7 @@ const Faq = () => {
                 <div className='right'>{openQuestion === 3 ? '-' : '+'}</div>
             </div>
             {openQuestion === 3 && (
-                <div className='answer3'>
+                <div className='answer3  mx-32 flex justify-between px-12 py-3 my-2 hover:bg-slate-400'>
                     Watch anywhere, anytime. Sign in with your Netflix account to watch instantly
                     on the web at netflix.com from your personal computer or on any
                     internet-connected device that offers the Netflix app, including smart TVs,
@@ -72,7 +72,7 @@ const Faq = () => {
                 <div className='right'>{openQuestion === 4 ? '-' : '+'}</div>
             </div>
             {openQuestion === 4 && (
-                <div className='answer4'>
+                <div className='answer4  mx-32 flex justify-between px-12 py-3 my-2 hover:bg-slate-400'>
                     Watch anywhere, anytime. Sign in with your Netflix account to watch instantly
                     on the web at netflix.com from your personal computer or on any
                     internet-connected device that offers the Netflix app, including smart TVs,
@@ -92,7 +92,7 @@ const Faq = () => {
                 <div className='right'>{openQuestion === 5 ? '-' : '+'}</div>
             </div>
             {openQuestion === 5 && (
-                <div className='answer5'>
+                <div className='answer5  mx-32 flex justify-between px-12 py-3 my-2 hover:bg-slate-400'>
                     Watch anywhere, anytime. Sign in with your Netflix account to watch instantly
                     on the web at netflix.com from your personal computer or on any
                     internet-connected device that offers the Netflix app, including smart TVs,
@@ -112,7 +112,7 @@ const Faq = () => {
                 <div className='right'>{openQuestion === 6 ? '-' : '+'}</div>
             </div>
             {openQuestion === 6 && (
-                <div className='answer6'>
+                <div className='answer6  mx-32 flex justify-between px-12 py-3 my-2 hover:bg-slate-400'>
                     Watch anywhere, anytime. Sign in with your Netflix account to watch instantly
                     on the web at netflix.com from your personal computer or on any
                     internet-connected device that offers the Netflix app, including smart TVs,
@@ -132,7 +132,7 @@ const Faq = () => {
                 <div className='right'>{openQuestion === 7 ? '-' : '+'}</div>
             </div>
             {openQuestion === 7 && (
-                <div className='answer7'>
+                <div className='answer7  mx-32 flex justify-between px-12 py-3 my-2 hover:bg-slate-400'>
                     Watch anywhere, anytime. Sign in with your Netflix account to watch instantly
                     on the web at netflix.com from your personal computer or on any
                     internet-connected device that offers the Netflix app, including smart TVs,
