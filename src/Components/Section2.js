@@ -8,7 +8,8 @@ const Section2 = () => {
                 <div className='left '>
                     <img src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/mobile-0819.jpg" />
 
-                    <div className='bg-black h-12 relative w-[53%] ml-[140px] border-gray-600 rounded-lg border-2 mx-6 px-8	mt-[-91px] flex items-center justify-between px-3'>
+                    <div className='bg-black h-12 relative w-[53%] ml-[140px] border-gray-600 rounded-lg border-2 mx-6 	mt-[-133px] flex items-center justify-between px-5 pt-[36px] pb-[44px]
+                    '>
                         <div className='image class1'>
                             <img src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/boxshot.png" className='h-8' />
                         </div>
